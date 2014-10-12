@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+html, body {
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+header img {
+  width: 100%;
+  height: auto;
+}
+header nav {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  bottom: 0;
+}
+header nav.fixed {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+}
+header nav ul {
+  width: 980px;
+  margin: 0 auto;
+}
+header nav ul li {
+  width: 196px;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  text-align: center;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+header nav ul li:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+header nav ul li a {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  line-height: inherit;
+  color: #2e2e2e;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#about {
+  margin-top: 100px;
+}
+#about h1 {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+#about p {
+  width: 100%;
+  text-align: center;
+  line-height: 180%;
+  margin-bottom: 100px;
+}
+
+#concept {
+  display: inline-block;
+  width: 100%;
+  background-color: #f7eee2;
+  padding-top: 100px;
+  text-align: center;
+}
+#concept div.food {
+  width: 80%;
+  margin-bottom: 100px;
+  display: inline-block;
+  clear: both;
+}
+#concept div.food .foodImg {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  overflow: hidden;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+#concept div.food .foodImg img {
+  width: auto;
+  height: 100%;
+  margin-left: -100px;
+}
+#concept div.food p {
+  margin-top: 80px;
+  text-align: left;
+  line-height: 180%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#series {
+  clear: both;
+  margin-top: 100px;
+}
+#series h3 {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+#series p {
+  width: 100%;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+#series img {
+  width: 100%;
+  height: auto;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+
+#sample {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 100px;
+  background-color: #f7eee2;
+}
+#sample h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#sample p {
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+#sample #formArea {
+  display: inline-block;
+  width: 100%;
+}
+#sample .left {
+  width: 50%;
+}
+#sample .right {
+  width: 50%;
+  text-align: center;
+}
+#sample div label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#sample div input[type="text"],
+#sample div input[type="tel"] {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+#sample div#send {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+#sample div#send input[type="submit"] {
+  display: inline-block;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  background-color: #ffacac;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #f7eee2;
+}
